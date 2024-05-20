@@ -1,0 +1,20 @@
+/** @type {import('next').NextConfig} */
+//Run code
+const nextConfig = {
+  
+  reactStrictMode: true,
+  output: 'export',
+  swcMinify: true,
+  images: {
+    domains: ["localhost"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "cdn.sanity.io",
+        port: "",
+      },
+    ],
+  },
+};
+
+module.exports = nextConfig;
