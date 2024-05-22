@@ -15,6 +15,7 @@ const Brands = () => {
               description: 'Hundreds of integrations available and customizable to fit your needs',
             }}
           />
+         {/* ok */}
         </div>
         <div className="container mx-auto px-35 py-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-10">
