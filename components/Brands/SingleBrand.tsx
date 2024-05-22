@@ -23,11 +23,11 @@ const SingleBrand = ({ brand }: { brand: Brand }) => {
       transition={{ duration: 1, delay: id * 0.1 }}
       viewport={{ once: true }}
       href={href}
-      className="mx-w-full relative block h-10 w-[98px]"
+      className="mx-w-full relative block h-[135px] w-[135px]"
       aria-label={name}
     >
       <Image
-        className="opacity-65 transition-opacity duration-300 hover:opacity-100 dark:hidden"
+        className="opacity-100 transition-opacity duration-300 hover:opacity-100 dark:hidden"
         src={image}
         alt={name}
         layout="fill"
